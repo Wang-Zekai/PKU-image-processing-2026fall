@@ -1,8 +1,9 @@
+# Runtime dependencies for the supplied Gradio 4.x assignment template.
 gradio==4.44.1
 numpy==1.26.4
 opencv-python==4.10.0.84
-Pillow==10.4.0
-# Compatibility pins for Gradio 4.44.1.
+pillow==10.4.0
+# Keep Gradio 4.x compatible with its web/API dependencies.
 huggingface-hub==0.25.2
 pydantic==2.10.6
 fastapi==0.112.2
